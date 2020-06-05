@@ -1,9 +1,5 @@
 import axios from 'axios';
 
-/**
- * 2つのajax情報を返す
- * @param {*} addresses
- */
 export const getServers = (addresses) => {
   return Promise.all(addresses.map((address) => axios.get(`${address}`))).then((responses) => {
     const allResponse = {};

@@ -4,9 +4,6 @@ import Template from '../modules/Aux';
 import { Name } from './Name';
 import { Modal } from './Modal';
 
-/**
- *
- */
 export default class Schedule extends React.Component {
   constructor(props) {
     super(props);

@@ -5,9 +5,6 @@ import { getEventLists } from '../modules/helper';
 
 import Schedule from './Schedule';
 
-/**
- * 全体
- */
 export default class Top extends React.Component {
   constructor(props) {
     super(props);

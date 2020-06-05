@@ -2,10 +2,6 @@ import React from 'react';
 
 import { category } from '../modules/helper';
 
-/**
- * 1つのますのパーツ
- * @param {*} props
- */
 export const Name = (props) => {
   return (
     <li className="hide js-accordion-wrapper" onClick={props.parentMethod}>

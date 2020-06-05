@@ -1,9 +1,5 @@
 import { CONFIG } from '../modules/CONFIG';
 
-/**
- * スケジュールと、それに合わせたAPI情報を返す
- * @param {*} allResponse
- */
 export const getEventLists = (allResponse) => {
   let eventLists = [];
   let pickUpList = [];
